@@ -19,7 +19,7 @@ def makecalc():
 
 if __name__ == '__main__':
 
-    modelfile = '/Users/himswamy0/Desktop/Himanshu/ARTICLES/flask-api-master/lr_predict.pickle'    
+    modelfile = '/Users/lr_predict.pickle'    
 
     model = p.load(open(modelfile, 'rb'))
     
